@@ -102,7 +102,7 @@ Please include examples of where you've seen this pattern in use. We'll use thes
 
 ## Feedback
 
-Get in touch with us on [Twitter @projectsbyif](https://twitter.com/projectsbyif) or [email hello@projectsbyif.com](mailto:hello@projectsbyif.com).
+Get in touch with us on[email hello@projectsbyif.com](mailto:hello@projectsbyif.com).
 
 ## Licence
 
