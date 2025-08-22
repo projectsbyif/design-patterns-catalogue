@@ -30,13 +30,13 @@ limitations:
 
 
 examples:
- - title: Gemini in Google Docs
-   url: https://support.google.com/docs/answer/14355406?sjid=11939911457851043013-EU
-   description: Explains that the AI can make mistakes, and prompts people to check the output for themselves
+ - title: Youtube
+   url: https://github-production-user-asset-6210df.s3.amazonaws.com/4757853/480920201-d8219f94-ee60-4ff0-8402-39e196c84dc6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA/20250822/us-east-1/s3/aws4_request&X-Amz-Date=20250822T102414Z&X-Amz-Expires=300&X-Amz-Signature=63f347359a626c13c943a2ab1ee267c135331f7911ea17971a623086a3e3bf32&X-Amz-SignedHeaders=host
+   description: Shows parents what they can and can't see when setting up supervision features for teens
 
- - title: Coinbase live chat
-   url: https://help.coinbase.com/en-gb
-   description: Explains that their chatbot can make mistakes, does not have access to user data and does not give advice 
+ - title: Grammarly
+   url: https://www.youtube.com/watch?v=ggXrqdYSpJo&t=11s
+   description: Shows contextual capabilities and limitations as people move through a choice funnel
 
  - title: Claude
    url: https://claude.ai

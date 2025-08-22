@@ -18,7 +18,7 @@ images:
 alt: Anomalies are detected in what someone says and their case is automatically flagged as urgent
 
 advantages:
- - Analysing language-based signals has been proven to effectively prioritise vulnerable people’s access to services 
+ - Carefully analysing language-based signals has been proven to effectively prioritise people’s access to services 
  - Contextual cues such as location, time of day and others can be used to protect people from harm
  - People can use their own language to communicate with services in an accessible and inclusive way
  - Established guidance for natural language processing and automated decision making ensures experiences can be consistent in regulated sectors
@@ -27,7 +27,7 @@ advantages:
 limitations:
  - Without guardrails there is room for misinterpretation of the words people use or introduction of bias
  - False positives may occur which negatively impact user experience and trust
- - Inferring vulnerability or mental state by analysing user interactions needs to be handled carefully, particularly in regulated sectors, and the resulting information should not be used for any other purposes
+ - Inferring vulnerability or mental state by analysing user interactions should be avoided, particularly in regulated sectors, and the resulting information should not be used for any other purposes
 
 
 examples:
@@ -46,7 +46,7 @@ examples:
 
 ---
 
-Analyse people’s text, speech or behaviour to tailor experiences in ways that better meet their needs and keep them safe. Keep analysis neutral and users in control to ensure outcomes are fair. Treat outputs as tentative signals that can be corrected by the user. 
+Analyse people’s text, speech or behaviour to tailor experiences in ways that better meet their needs and keep them safe. Always tell them when a service is analysing what they do, keep analysis neutral and users in control to ensure outcomes are fair. Treat outputs as tentative signals that can be corrected by the user. 
 
 For example, a user’s message might indicate specific needs or sensitive circumstances that mean a case should be automatically escalated to a human. These can be respected and validated through follow up questions and clear next steps.
 
