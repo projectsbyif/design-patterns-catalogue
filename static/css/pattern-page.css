@@ -281,12 +281,6 @@ display: inline-block;
   width: 100%;
 }
 
-.related-patterns li:hover .related-patterns-title {
-  border-bottom: 1px solid transparent;
-  border-right: 1px solid transparent;
-  border-left: 1px solid transparent;
-}
-
 .related-patterns-image {
   align-content: center;
   display: flex;

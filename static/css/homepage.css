@@ -359,16 +359,12 @@ header.page {
   width: 90%;
 }
 
-/* Category List Colours */
 .pattern-card:hover {
   border: 0;
 }
 
-.pattern-card:hover .pattern-card-title {
-  border-right: 1px solid transparent;
-  border-left: 1px solid transparent;
-  border-bottom: 1px solid transparent;
-
+.pattern-card.understanding-and-influencing-decisions:hover {
+  box-shadow: 0px 0px 30px 12px rgba(255,145,105, 0.25);
 }
 
 .pattern-card.giving-and-removing-consent:hover {
