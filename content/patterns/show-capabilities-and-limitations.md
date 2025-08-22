@@ -31,7 +31,7 @@ limitations:
 
 examples:
  - title: Youtube
-   url: https://github-production-user-asset-6210df.s3.amazonaws.com/4757853/480920201-d8219f94-ee60-4ff0-8402-39e196c84dc6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA/20250822/us-east-1/s3/aws4_request&X-Amz-Date=20250822T102414Z&X-Amz-Expires=300&X-Amz-Signature=63f347359a626c13c943a2ab1ee267c135331f7911ea17971a623086a3e3bf32&X-Amz-SignedHeaders=host
+   url: /images/youtube-example.png
    description: Shows parents what they can and can't see when setting up supervision features for teens
 
  - title: Grammarly
