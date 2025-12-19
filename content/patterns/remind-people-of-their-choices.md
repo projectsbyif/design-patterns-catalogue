@@ -51,6 +51,6 @@ For example, if someone previously allowed data about them to be shared with a t
 
 These contextual reminders can clarify, in context, why an action is happening based on earlier decisions, helping people understand how their preferences shape the service.
 
-A Notice of upcoming action is a related pattern, reminding people ahead of time so they have space to review or change what they’ve allowed.
+[Notice of upcoming action](../notice-of-upcoming-action) is a related pattern, reminding people ahead of time so they have space to review or change what they’ve allowed.
 
 IF believes these reminders keep data-sharing decisions meaningful and aligned with people’s expectations over time.

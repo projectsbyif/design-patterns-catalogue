@@ -24,7 +24,7 @@ advantages:
 
 
 limitations:
-- Large or complex histories can overwhelm people, or leave them with work to do to make sense of the data, if not presented in clear and manageable ways (see [Progressive disclosure](https://catalogue.projectsbyif.com/patterns/progressive-disclosure/)).
+- Large or complex histories can overwhelm people, or leave them with work to do to make sense of the data, if not presented in clear and manageable ways (see [Progressive disclosure](../progressive-disclosure/)).
 - If these histories are buried or hard to find, people may never notice them.
 - Tracking downstream or derived uses of data may be difficult.
 
