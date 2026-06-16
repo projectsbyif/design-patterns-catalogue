@@ -28,16 +28,16 @@ You can contribute to the catalogue on GitHub by creating an issue or submitting
 
 1. Create a new branch to work on. You can do this in GitHub Desktop or via the terminal.
 
-**⚠️Changes should always be made on branch.⚠️** This is because any changes committed directly on `master` will automatically deploy live.
+**⚠️Changes should always be made on branch.⚠️** This is because any changes committed directly on `main` will automatically deploy live.
 
   - How to create a new branch on [GitHub Desktop](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-and-deleting-branches-within-your-repository)
   - How to create a new branch via the [terminal](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
 
-2. In the terminal, `cd` into the website folder and run `hugo server` to start the development server.
+2. In the terminal, `cd` into the repository folder and run `hugo server` to start the development server.
 
 Any changes you make will be automatically displayed at http://localhost:1313
 
-3. Open the website folder in a text editor of your choice (like [Atom](https://atom.io/) or [VSCode](https://code.visualstudio.com/)).
+3. Open the repository folder in a text editor of your choice (like [VSCode](https://code.visualstudio.com/)).
 
 **Adding or editing a pattern**
 
@@ -57,7 +57,7 @@ The *front matter* of the Markdown file (the bit at the top between the three da
 
 * `category`: [String] name of the category this pattern belongs to. A list of categories can be found [below](#creating-and-editing-categories) (required)
 
-* `weight`: [Integer] value between 1 and 4 that places the pattern card on the Categories view on homepage. 1 - 3 will place the pattern in the relevant spot on the Category preview. 4 will hide the pattern until the Category is expanded
+* `weight`: [Integer] orders the pattern within its category on the homepage. Patterns are sorted by weight in ascending order (lower weight appears first). The three lowest-weighted patterns in each category show in the Category preview; the rest are hidden until the category is expanded. Use a higher number (e.g. `10`, `40`) to push a pattern towards the end of its category.
 
 * `archived`: [Boolean] setting this to true will add an Archive tag to the pattern
 
@@ -75,7 +75,7 @@ The *front matter* of the Markdown file (the bit at the top between the three da
 
 * `limitations`: [String] where the pattern falls short
 
-* `examples`: real-world uses of this design pattern. Each example can contain a `title`, `description` and `url` [All Strings].
+* `examples`: real-world uses of this design pattern. Each example can contain a `title`, `description`, `url` and `img_src` (path to an optional image for the example) [All Strings].
 
 `date` and `lastmod` are automatically generated and should not be changed.
 
@@ -96,9 +96,20 @@ We've created several categories that patterns can belong to. Right now, these a
 
 Categories are defined in `content/categories/_index.md`. To create a new category or edit an existing one, simply edit this file.
 
+## Deployment
+
+The catalogue is deployed via [Vercel](https://vercel.com/), which builds the Hugo site and hosts it at [catalogue.projectsbyif.com](https://catalogue.projectsbyif.com/).
+
+* **Production:** every commit merged or pushed to the `main` branch is built and deployed live automatically. This is why changes should always be made on a branch (see [Creating and editing patterns](#creating-and-editing-patterns)).
+* **Preview deploys:** every branch and pull request gets its own preview URL, so you can review changes before they reach production.
+
+Vercel runs the `hugo` build command and serves the generated `public` directory. There is no separate build configuration file checked into the repository — build settings are managed in the Vercel project dashboard.
+
 ## Images
 
-Please include examples of where you've seen this pattern in use. We'll use these as reference for creating an illustration for a new pattern.
+Pattern illustrations live in `static/images` and are referenced from a pattern's front matter using a root-relative path, for example `images:` → `url: /images/activity-log.svg`.
+
+When suggesting a new pattern, please include examples of where you've seen this pattern in use. We'll use these as reference for creating an illustration.
 
 ## Feedback
 

@@ -1,8 +1,0 @@
-[context.production.environment]
-  HUGO_ENV = "production"
-  command = "hugo"
-  publish = "public"
-
-[context.branch-deploy]
-  command = "hugo"
-  publish = "public"
