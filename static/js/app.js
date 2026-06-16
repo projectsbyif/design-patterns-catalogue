@@ -190,11 +190,6 @@ function animateStickyNavOpacity() {
 
 /* Pattern page feedback form */
 
-$('#giveDetailedFeedback').click(function(e) {
-  e.preventDefault();
-  $('.detailed-feedback').toggle();
-})
-
 $(".usage-feedback").submit(function(e) {
   e.preventDefault();
 
@@ -203,15 +198,5 @@ $(".usage-feedback").submit(function(e) {
     $('.question').hide();
     $('.feedback-form').hide();
     $('.success-message').show();
-  });
-});
-
-$(".detailed-feedback").submit(function(e) {
-  e.preventDefault();
-
-  let $form = $(this);
-  $.post($form.attr("action"), $form.serialize()).then(function() {
-    $('.feedback-form').toggle();
-    $('.success-message').toggle();
   });
 });

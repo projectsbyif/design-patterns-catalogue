@@ -389,23 +389,6 @@ display: inline-block;
   flex: 0 0 auto;
 }
 
-.feedback-form .detailed-feedback {
-  display: none;
-  width: 100%;
-
-}
-
-.feedback-form .detailed-feedback input {
-  border: 1px solid black;
-  height: 10em;
-  margin: 1em 0;
-  width: 100%;
-}
-
-.feedback-form .detailed-feedback button {
-  font-size: 1.2em;
-}
-
 .feedback-form .usage-feedback input {
   background: 0;
   border: 0;
