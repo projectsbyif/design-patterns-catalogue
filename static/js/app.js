@@ -193,10 +193,11 @@ function animateStickyNavOpacity() {
 $(".usage-feedback").submit(function(e) {
   e.preventDefault();
 
-  let $form = $(this);
-  $.post($form.attr("action"), $form.serialize()).then(function() {
-    $('.question').hide();
-    $('.feedback-form').hide();
-    $('.success-message').show();
-  });
+  if (window.plausible) {
+    plausible("pattern-useful");
+  }
+
+  $('.question').hide();
+  $('.feedback-form').hide();
+  $('.success-message').show();
 });
