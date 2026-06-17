@@ -10,4 +10,5 @@ list_of_categories:
   - name: "Giving access to data"
   - name: "Getting access to data"
   - name: "Doing security checks"
+  - name: "Share data"
 ---

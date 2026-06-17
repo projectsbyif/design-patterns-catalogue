@@ -14,7 +14,7 @@ limitations:
  - If an account gets compromised unintended audiences will have access to the data
 
 images:
-  - url: /images/private-link.svg
+  - url: /images/sharing-using-a-private-link.svg
 
 alt: A private link that enables people to share and view a document.
 

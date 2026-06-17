@@ -6,7 +6,7 @@ weight: 4
 category: Giving access to data
 
 images:
-  - url: /images/time-limiting.svg
+  - url: /images/time-limited-sharing.svg
 
 alt: A web window showing customizable sharing settings for accessing a service.
 

@@ -409,85 +409,99 @@ display: inline-block;
 .pattern-image-div.giving-and-removing-consent,
 .related-patterns-image.giving-and-removing-consent,
 .pattern-heading-category.giving-and-removing-consent {
-  background-color: rgb(140,235,200);
+  background-color: rgb(156,214,247);
 }
 
 .related-patterns li.giving-and-removing-consent:hover {
-  box-shadow: 0px 0px 30px 12px rgba(150,225,170, 0.25);
+  box-shadow: 0px 0px 30px 12px rgba(156,214,247, 0.25);
 }
 
 .examples-title a.giving-and-removing-consent:hover {
-  box-shadow: inset 0 -0.2em 0 rgb(140,235,200);
+  box-shadow: inset 0 -0.2em 0 rgb(156,214,247);
 }
 
 .pattern-image-div.signing-in-to-a-service,
 .related-patterns-image.signing-in-to-a-service,
 .pattern-heading-category.signing-in-to-a-service {
-  background-color: rgb(135,215,235);
+  background-color: rgb(156,214,247);
 }
 
 .related-patterns li.signing-in-to-a-service:hover {
-  box-shadow: 0px 0px 30px 12px rgba(135,215,235, 0.25);
+  box-shadow: 0px 0px 30px 12px rgba(156,214,247, 0.25);
 }
 
 .examples-title a.signing-in-to-a-service:hover {
-  box-shadow: inset 0 -0.2em 0 rgb(135,215,235);
+  box-shadow: inset 0 -0.2em 0 rgb(156,214,247);
 }
 
 .pattern-image-div.giving-access-to-data,
 .related-patterns-image.giving-access-to-data,
 .pattern-heading-category.giving-access-to-data {
-  background-color: rgb(186,222,125);
+  background-color: rgb(211,235,183);
 }
 
 .related-patterns li.giving-access-to-data:hover {
-  box-shadow: 0px 0px 30px 12px rgba(186,222,125, 0.25);
+  box-shadow: 0px 0px 30px 12px rgba(211,235,183, 0.25);
 }
 
 .examples-title a.giving-access-to-data:hover {
-  box-shadow: inset 0 -0.2em 0 rgb(186,222,125);
+  box-shadow: inset 0 -0.2em 0 rgb(211,235,183);
 }
 
 .pattern-image-div.getting-access-to-data,
 .related-patterns-image.getting-access-to-data,
 .pattern-heading-category.getting-access-to-data {
-  background-color: rgb(255,215,95);
+  background-color: rgb(255,221,92);
 }
 
 .related-patterns li.getting-access-to-data:hover {
-  box-shadow: 0px 0px 30px 12px rgba(255,215,95, 0.25);
+  box-shadow: 0px 0px 30px 12px rgba(255,221,92, 0.25);
 }
 
 .examples-title a.getting-access-to-data:hover {
-  box-shadow: inset 0 -0.2em 0 rgb(255,215,95);
+  box-shadow: inset 0 -0.2em 0 rgb(255,221,92);
 }
 
 .pattern-image-div.understanding-and-influencing-decisions,
 .related-patterns-image.understanding-and-influencing-decisions,
 .pattern-heading-category.understanding-and-influencing-decisions {
-  background-color: rgb(255,145,105);
+  background-color: rgb(252,186,169);
 }
 
 .related-patterns li.understanding-and-influencing-decisions:hover {
-  box-shadow: 0px 0px 30px 12px rgba(255,145,105, 0.25);
+  box-shadow: 0px 0px 30px 12px rgba(252,186,169, 0.25);
 }
 
 .examples-title a.understanding-and-influencing-decisions:hover {
-  box-shadow: inset 0 -0.2em 0 rgb(255,145,105);
+  box-shadow: inset 0 -0.2em 0 rgb(252,186,169);
 }
 
 .pattern-image-div.doing-security-checks,
 .related-patterns-image.doing-security-checks,
 .pattern-heading-category.doing-security-checks {
-  background-color: rgb(250,160,170);
+  background-color: rgb(252,209,216);
 }
 
 .related-patterns li.doing-security-checks:hover {
-  box-shadow: 0px 0px 10px 10px rgba(250,160,170, 0.2);
+  box-shadow: 0px 0px 10px 10px rgba(252,209,216, 0.2);
 }
 
 .examples-title a.doing-security-checks:hover {
-  box-shadow: inset 0 -0.2em 0 rgb(250,160,170);
+  box-shadow: inset 0 -0.2em 0 rgb(252,209,216);
+}
+
+.pattern-image-div.share-data,
+.related-patterns-image.share-data,
+.pattern-heading-category.share-data {
+  background-color: rgb(176,175,249);
+}
+
+.related-patterns li.share-data:hover {
+  box-shadow: 0px 0px 30px 12px rgba(176,175,249, 0.25);
+}
+
+.examples-title a.share-data:hover {
+  box-shadow: inset 0 -0.2em 0 rgb(176,175,249);
 }
 
 /* Media queries */
