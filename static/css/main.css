@@ -1,7 +1,7 @@
 body {
   color: #242249;
   background-color: white;
-  font-family: 'acumin-pro', sans-serif;
+  font-family: 'Instrument Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 85%;
@@ -22,7 +22,7 @@ main.page {
 }
 
 h1, h2, h3 {
-  font-family: 'acumin-pro', sans-serif;
+  font-family: 'Instrument Sans', sans-serif;
   font-weight: 600;
 }
 
@@ -71,7 +71,7 @@ hr.hover {
 }
 
 .toggle-menu {
-  font-weight: 700;
+  font-weight: 500;
   color: rgb(36, 34, 73);
 }
 
@@ -101,7 +101,7 @@ hr.hover {
   top: 0;
   background-color: #000F7D;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
   padding: 5px 10px;
   left: 0;
   text-decoration: underline;
@@ -153,8 +153,7 @@ nav .made-by {
   color: white;
   font-size: 1.05em;
   line-height: 30px;
-  letter-spacing: -0.01rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 nav h1,
@@ -172,9 +171,8 @@ nav .made-by-alt {
   color: rgb(189, 189, 200);
   font-size: 1.1em;
   line-height: 30px;
-  letter-spacing: -0.01rem;
   margin-bottom: 0;
-  font-weight: 700;
+  font-weight: 500;
   position: absolute;
   bottom: 1em;
 }
@@ -286,7 +284,7 @@ nav .made-by:hover {
 
 .error-page h1 {
   font-size: 5em;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 1em;
 }
 
@@ -327,8 +325,7 @@ footer h2 {
   color: #EC392A;
   font-size: 1.1em;
   line-height: 30px;
-  letter-spacing: -0.2px;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: lowercase;
 }
 
@@ -378,7 +375,7 @@ footer.mobile-only .license {
 }
 
 footer .license a {
-  font-weight: 700;
+  font-weight: 500;
   color: rgb(189, 189, 200);
 }
 

@@ -17,14 +17,13 @@ main.patterns section:last-of-type {
 }
 
 main.patterns h1 {
-  font-weight: 700;
+  font-weight: 500;
   line-height: 2.6rem;
-  letter-spacing: -0.062rem;
 }
 
 main.patterns h2 {
   font-size: 1.2em;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 30px;
   position: sticky;
   top: 11em;
@@ -41,7 +40,8 @@ main.patterns section li {
 .pattern-heading-category {
   color: #898993;
   text-transform: uppercase;
-  font-weight: 700;
+  letter-spacing: 0.05em;
+  font-weight: 500;
 }
 
 .pattern-heading-category a {
@@ -87,8 +87,7 @@ main.patterns section li {
   color: #898993;
   display: inline-block;
   font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: -0.1px;
+  font-weight: 500;
   padding-top: 1em;
   text-align: center;
 }
@@ -134,7 +133,6 @@ main.patterns section li {
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.3;
-  letter-spacing: -0.1px;
   position: absolute;
   top: 1rem;
   left: 1rem;
@@ -142,6 +140,7 @@ main.patterns section li {
   max-width: 30%;
   padding: 0.25rem 0.5rem;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 /* Archive */
@@ -167,7 +166,6 @@ main.patterns .archive-description h2{
 .description p {
   font-size: 1.45em;
   line-height: 1.2;
-  letter-spacing: -0.01em;
   font-weight: 500;
   margin-bottom: .9em;
 }
@@ -315,6 +313,7 @@ display: inline-block;
   padding: 0.1rem 0.21rem 0.1rem 0.5rem;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .related-patterns img {
@@ -527,8 +526,7 @@ display: inline-block;
 
   main.patterns h1 {
     font-size: 2.5em;
-    letter-spacing: -0.062rem;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   main.patterns h2 {
