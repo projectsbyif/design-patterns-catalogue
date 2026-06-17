@@ -6,7 +6,7 @@ weight: 4
 category: Getting access to data
 
 images:
-  - url: /images/geofencing.svg
+  - url: /images/location-based-event.svg
 
 alt: A mobile phone detects that the user is in Manchester and offers more information about the city.
 
