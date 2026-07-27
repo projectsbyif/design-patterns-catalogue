@@ -17,14 +17,14 @@ main.patterns section:last-of-type {
 }
 
 main.patterns h1 {
-  font-weight: 700;
+  font-weight: 500;
   line-height: 2.6rem;
   letter-spacing: -0.062rem;
 }
 
 main.patterns h2 {
-  font-size: 1.2em;
-  font-weight: 700;
+  font-size: 1.45em;
+  font-weight: 600;
   line-height: 30px;
   position: sticky;
   top: 11em;
@@ -41,11 +41,12 @@ main.patterns section li {
 .pattern-heading-category {
   color: #898993;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .pattern-heading-category a {
-  color: #898993;
+  color: #242249;
+  letter-spacing: .08rem;
 }
 
 .pattern-heading-category:hover {
@@ -87,7 +88,7 @@ main.patterns section li {
   color: #898993;
   display: inline-block;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: -0.1px;
   padding-top: 1em;
   text-align: center;
@@ -132,7 +133,7 @@ main.patterns section li {
   color: #686778;
   display: block;
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.3;
   letter-spacing: -0.1px;
   position: absolute;
@@ -309,7 +310,7 @@ display: inline-block;
   color: #686778;
   border-radius: 2px;
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.6;
   margin: 0 0.5rem 0.5rem 0;
   padding: 0.1rem 0.21rem 0.1rem 0.5rem;
@@ -334,7 +335,7 @@ display: inline-block;
 .related-patterns li p {
   color: #242249;
   font-size: 1.1rem;
-  font-weight: 600 !important;
+  font-weight: 500 !important;
   line-height: 1.4;
   margin-bottom: 0;
   padding: 0.3rem 0.6rem;
@@ -365,7 +366,7 @@ display: inline-block;
   flex: 0 0 auto;
   font-size: 1.3em;
   margin: 0 2em 0 0;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .feedback .success-message {
@@ -381,7 +382,7 @@ display: inline-block;
 .feedback-form input, .feedback-form a {
   color: #29283D;
   font-size: 1.3em;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0;
 }
 
@@ -526,9 +527,9 @@ display: inline-block;
   }
 
   main.patterns h1 {
-    font-size: 2.5em;
+    font-size: 2.7em;
     letter-spacing: -0.062rem;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   main.patterns h2 {

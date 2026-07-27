@@ -48,14 +48,14 @@ header.page {
 }
 
 .homepage-intro h1 {
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: -0.062rem;
   margin: 3rem auto 1em auto;
   width: 90%;
 }
 
 .homepage-intro p {
-  font-family: 'acumin-pro', sans-serif;
+  font-family: 'IF Sans', sans-serif;
   font-weight: 500;
   margin: 0 auto 3em auto;
   font-size: 1.1em;
@@ -91,9 +91,9 @@ header.page {
   border-top-right-radius: 5px;
   color: #898993;
   display: inline-block;
-  font-family: 'acumin-pro', sans-serif;
+  font-family: 'IF Sans', sans-serif;
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0 0.25em;
   padding: 1em 0.5em;
   text-align: center;
@@ -108,6 +108,7 @@ header.page {
   border-right: 1px solid white;
   border-left: 1px solid white;
   color: #242249;
+  letter-spacing: .08rem;
 }
 
 .category-nav .view-by-category:hover,
@@ -118,12 +119,14 @@ header.page {
   border-right: 1px solid white;
   border-left: 1px solid white;
   color: #242249;
+  letter-spacing: .08rem;
 }
 
 .category-nav .view-by-category.active:hover,
 .category-nav .view-most-recent.active:hover,
 .category-nav .view-alphabetically.active:hover {
   background-color: white;
+  letter-spacing: .08rem;
 }
 
 .category-nav .view-by-category,
@@ -131,6 +134,7 @@ header.page {
 .category-nav .view-alphabetically {
   text-transform: uppercase;
   color: white;
+  letter-spacing: .08rem;
 }
 
 .expand-all-container {
@@ -146,8 +150,8 @@ header.page {
   border-top: 0;
   color: #898993;
   padding: 0.5em;
-  font-family: 'acumin-pro', sans-serif;
-  font-weight: 600;
+  font-family: 'IF Sans', sans-serif;
+  font-weight: 500;
 }
 
 .expand-all:visited {
@@ -223,7 +227,7 @@ header.page {
 
 .category-heading h2 {
   font-size: 2.2em;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: -0.062rem;
   margin-top: 2rem;
   margin-bottom: 1em;
@@ -252,8 +256,8 @@ header.page {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   color: #898993;
-  font-family: 'acumin-pro', sans-serif;
-  font-weight: 600;
+  font-family: 'IF Sans', sans-serif;
+  font-weight: 500;
   padding: 0.3em 0.9em 0.5em 0.81em;
 }
 
@@ -319,7 +323,7 @@ header.page {
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
   color: #686778;
   font-size: 0.9em;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: -0.1px;
   margin: 0 0.5em 0.5em 0;
   padding: 0.1em 0.21em 0.1em 0.5em;
@@ -351,9 +355,9 @@ header.page {
 .pattern-card-title a {
   color: #242249;
   display: inline-block;
-  font-family: 'acumin-pro', sans-serif;
+  font-family: 'IF Sans', sans-serif;
   font-size: 1.5em;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 27px;
   letter-spacing: -0.0225em;
   width: 90%;
@@ -434,7 +438,7 @@ header.page {
   }
 
   .homepage-intro h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 2rem;
   }
 
@@ -458,7 +462,7 @@ header.page {
 @media (min-width: 64em) {
   /* Header */
   .homepage-intro h1 {
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: -0.1rem;
     margin: 7rem auto 1.6rem auto;
     width: 100%;
@@ -473,7 +477,7 @@ header.page {
   .category-nav li a {
     margin: 0 0.5em;
     padding: 1em 1em;
-    width: 160px;
+    width: 170px;
   }
 
   .category-nav li:first-of-type a {

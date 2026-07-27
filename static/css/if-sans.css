@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "IF Sans";
+  src: url("/fonts/IFSans.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IF Sans";
+  src: url("/fonts/IFSans-Italic.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+/* .tk-acumin-pro { font-family: "IF Sans", sans-serif; } */

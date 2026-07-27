@@ -1,7 +1,7 @@
 body {
   color: #242249;
   background-color: white;
-  font-family: 'acumin-pro', sans-serif;
+  font-family: 'IF Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 85%;
@@ -21,16 +21,22 @@ main.page {
   background-color: #F7F7F7;
 }
 
-h1, h2, h3 {
-  font-family: 'acumin-pro', sans-serif;
-  font-weight: 600;
+h1, h3 {
+  font-family: 'IF Sans', sans-serif;
+  font-weight: 500;
 }
 
 h1 {
   font-size: 2.5em;
   line-height: 1;
-  font-weight: 600;
+  font-weight: 500;
 }
+
+h2 {
+  font-family: 'IF Sans', sans-serif;
+  font-weight: 400;
+}
+
 
 p {
   margin-bottom: .5em;
@@ -71,7 +77,7 @@ hr.hover {
 }
 
 .toggle-menu {
-  font-weight: 700;
+  font-weight: 500;
   color: rgb(36, 34, 73);
 }
 
@@ -154,7 +160,7 @@ nav .made-by {
   font-size: 1.05em;
   line-height: 30px;
   letter-spacing: -0.01rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 nav h1,
@@ -174,7 +180,7 @@ nav .made-by-alt {
   line-height: 30px;
   letter-spacing: -0.01rem;
   margin-bottom: 0;
-  font-weight: 700;
+  font-weight: 500;
   position: absolute;
   bottom: 1em;
 }
@@ -286,7 +292,7 @@ nav .made-by:hover {
 
 .error-page h1 {
   font-size: 5em;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 1em;
 }
 
@@ -328,7 +334,7 @@ footer h2 {
   font-size: 1.1em;
   line-height: 30px;
   letter-spacing: -0.2px;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: lowercase;
 }
 
@@ -339,7 +345,7 @@ footer h3 {
 
 footer h4 {
   font-size: 1.2em;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 0;
   margin-top: 1em;
 }
@@ -347,13 +353,13 @@ footer h4 {
 footer a p,
 footer a h4 {
   font-size: 1.2em;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 0;
   margin-top: 1em;
 }
 
 footer a p {
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 0;
 }
 
@@ -378,7 +384,7 @@ footer.mobile-only .license {
 }
 
 footer .license a {
-  font-weight: 700;
+  font-weight: 500;
   color: rgb(189, 189, 200);
 }
 
