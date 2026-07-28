@@ -410,15 +410,15 @@ display: inline-block;
 .pattern-image-div.giving-and-removing-consent,
 .related-patterns-image.giving-and-removing-consent,
 .pattern-heading-category.giving-and-removing-consent {
-  background-color: rgb(156,214,247);
+  background-color: rgb(140,235,200);
 }
 
 .related-patterns li.giving-and-removing-consent:hover {
-  box-shadow: 0px 0px 30px 12px rgba(156,214,247, 0.25);
+  box-shadow: 0px 0px 30px 12px rgba(140,235,200, 0.25);
 }
 
 .examples-title a.giving-and-removing-consent:hover {
-  box-shadow: inset 0 -0.2em 0 rgb(156,214,247);
+  box-shadow: inset 0 -0.2em 0 rgb(140,235,200);
 }
 
 .pattern-image-div.signing-in-to-a-service,
